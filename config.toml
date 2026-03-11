@@ -231,8 +231,8 @@ defaultContentLanguage = "en"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
-      alt = "Gingivitomy"
-      description = "Gingivitomy"
+      alt = "gingivectomy (Laser)"
+      description = "gingivectomy (Laser)"
       alt_ar = "قص لصه بالليزر"
       description_ar = "قص لصه بالليزر"
 
