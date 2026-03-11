@@ -208,8 +208,8 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
-      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
-      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
       alt_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
       description_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
 
@@ -220,8 +220,8 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/392163ae-d93c-4d58-b36b-5fb43dcb918c"
-      alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
-      description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
       alt_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
       description_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
 
