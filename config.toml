@@ -189,6 +189,11 @@ defaultContentLanguage = "en"
       alt_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
       description_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
 
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو"
+    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/d4c67620-1d22-4944-8228-e3dfd23882c3"
       alt = "Direct posterior composite restoration for deep occlusal caries"
@@ -196,6 +201,11 @@ defaultContentLanguage = "en"
       alt_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
       description_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
 
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو"
+    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
       alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
@@ -217,8 +227,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Periodontics"
-    category_ar = "جراحة اللثة"
+    category = "Prosthodontics"
+    category_ar = "تركيبات"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/f1d85b6c-741f-43af-a1db-470cefff9b1c"
@@ -226,13 +236,6 @@ defaultContentLanguage = "en"
       description = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
       alt_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
       description_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
-
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
-      alt = "Full ceramic crown restoration for the anterior teeth"
-      description = "Full ceramic crown restoration for the anterior teeth"
-      alt_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
-      description_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
 
   [[params.clinical_cases]]
     enabled = true
@@ -260,15 +263,27 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
+    category = "Prosthodontics"
+    category_ar = "تركيبات"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
+      alt = "Full ceramic crown restoration for the anterior teeth"
+      description = "Full ceramic crown restoration for the anterior teeth"
+      alt_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
+      description_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
+
+  [[params.clinical_cases]]
+    enabled = true
     category = "Periodontics"
     category_ar = "جراحة اللثة"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e2c82c43-b48f-492a-aec5-e8ddda770af6"
-      alt = "Gingivectomy procedure"
-      description = "Gingivectomy procedure"
-      alt_ar = "قص لثة بالليزر"
-      description_ar = "قص لثة بالليزر"
+      alt = "Gingivitomy"
+      description = "Gingivitomy"
+      alt_ar = "قص لصه بالليزر"
+      description_ar = "قص لصه بالليزر"
       
   # Contact Section
   [params.contact]
