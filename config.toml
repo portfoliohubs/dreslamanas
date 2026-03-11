@@ -1,4 +1,4 @@
-baseURL = "https://portfoliohubs.github.io/Eslam-Anas/"
+baseURL = "https://portfoliohubs.github.io/dreslamanas/"
 languageCode = "en-us"
 title = "Dr. Eslam Anas Abdelwahab"
 defaultContentLanguage = "en"
@@ -167,7 +167,7 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "Prosthodontic"
+    category = "Prosthodontics"
     category_ar = "تركيبات"
     
     [[params.clinical_cases.cases]]
@@ -176,6 +176,20 @@ defaultContentLanguage = "en"
       description = "Endocrown restoration for a root canal treated molar"
       alt_ar = "ترميم ضرس معالج عصبياً باستخدام اندو كراون"
       description_ar = "ترميم ضرس معالج عصبياً باستخدام اندو كراون"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f1d85b6c-741f-43af-a1db-470cefff9b1c"
+      alt = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
+      description = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
+      alt_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
+      description_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
+      alt = "Full ceramic crown restoration for the anterior teeth"
+      description = "Full ceramic crown restoration for the anterior teeth"
+      alt_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
+      description_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
 
   [[params.clinical_cases]]
     enabled = true
@@ -189,11 +203,6 @@ defaultContentLanguage = "en"
       alt_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
       description_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "حشو"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/d4c67620-1d22-4944-8228-e3dfd23882c3"
       alt = "Direct posterior composite restoration for deep occlusal caries"
@@ -201,15 +210,10 @@ defaultContentLanguage = "en"
       alt_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
       description_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "حشو"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
-      alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
-      description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
       alt_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
       description_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
 
@@ -220,22 +224,17 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/392163ae-d93c-4d58-b36b-5fb43dcb918c"
-      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
-      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
       alt_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
       description_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Prosthodontics"
-    category_ar = "تركيبات"
-    
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/f1d85b6c-741f-43af-a1db-470cefff9b1c"
-      alt = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
-      description = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
-      alt_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
-      description_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
+      photo = "https://github.com/user-attachments/assets/e2c82c43-b48f-492a-aec5-e8ddda770af6"
+      alt = "Gingivitomy"
+      description = "Gingivitomy"
+      alt_ar = "قص لصه بالليزر"
+      description_ar = "قص لصه بالليزر"
 
   [[params.clinical_cases]]
     enabled = true
@@ -261,35 +260,12 @@ defaultContentLanguage = "en"
       alt_ar = "علاج جذور (حشو عصب) للضرس السابع العلوي"
       description_ar = "علاج جذور (حشو عصب) للضرس السابع العلوي"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Prosthodontics"
-    category_ar = "تركيبات"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
-      alt = "Full ceramic crown restoration for the anterior teeth"
-      description = "Full ceramic crown restoration for the anterior teeth"
-      alt_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
-      description_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Periodontics"
-    category_ar = "جراحة اللثة"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/e2c82c43-b48f-492a-aec5-e8ddda770af6"
-      alt = "Gingivitomy"
-      description = "Gingivitomy"
-      alt_ar = "قص لصه بالليزر"
-      description_ar = "قص لصه بالليزر"
-      
   # Contact Section
   [params.contact]
     phone = "01155061774"
     whatsapp = "01155061774"
     email = "anase6633@gmail.com"
+    instagram = "https://www.instagram.com/drr_islam_anas?igshid=MWE0NTg5aDc2dmRibw%3D%3D&utm_source=qr"
     instagram = "https://www.instagram.com/drr_islam_anas?igsh=MWE0NTg5aDc2dmRibw%3D%3D&utm_source=qr"
     facebook = ""
     linkedin = ""
