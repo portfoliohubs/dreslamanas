@@ -1,0 +1,395 @@
+baseURL = "https://portfoliohubs.github.io/Eslam-Anas/"
+languageCode = "en-us"
+title = "Dr. Eslam Anas Abdelwahab"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Eslam Anas Abdelwahab"
+    tagline = "Cosmetic Dentist"
+    graduation = "Graduated 2024 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/98c1eadd-3be3-43cd-9ea4-344547a84a5a"
+    profile_image_alt = "Profile photo of Dr. Eslam Anas Abdelwahab"
+    
+    [params.hero.current_position]
+      role = "Cosmetic dentist"
+      clinic = "Lavas smile clinic"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Eslam Anas Abdelwahab"
+    doctor_name_ar = "د. إسلام أنس عبدالوهاب"
+    site_name = "Dr. Eslam Anas Abdelwahab"
+    og_image = "https://github.com/user-attachments/assets/832e5305-3e49-47b0-88e4-2dc8026b5a0a"
+    favicon_image = "https://github.com/user-attachments/assets/832e5305-3e49-47b0-88e4-2dc8026b5a0a"
+    twitter_handle = ""
+    keywords = [
+      "Dr. Eslam Anas",
+      "Lava Smile Clinic",
+      "Dentist",
+      "Cosmetic Dentistry",
+      "Dental Veneers",
+      "Hollywood Smile",
+      "Teeth Whitening",
+      "Root Canal Treatment",
+      "Oral Surgery",
+      "Laser Gingivectomy",
+      "Zirconia Crowns",
+      "Smile Makeover"
+    ]
+    keywords_ar = [
+      "د. إسلام أنس عبدالوهاب",
+      "عيادة lava smile",
+      "طبيب أسنان",
+      "تجميل الأسنان",
+      "فينير الأسنان",
+      "الهوليوود سمايل",
+      "تبييض الأسنان",
+      "حشو العصب",
+      "جراحة الفم",
+      "قص اللثة بالليزر",
+      "تيجان الزركون",
+      "تجميل الابتسامة"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "General dental examination and diagnosis",
+      "Composite restorations",
+      "Caries management",
+      "Root canal treatment",
+      "Crown preparation and placement",
+      "Veneer preparation",
+      "Teeth whitening",
+      "Dental extraction",
+      "Scaling and polishing",
+      "Patient education and oral hygiene instruction"
+    ]
+    
+    digital = [
+      "Basic computer skills",
+      "Internet research for dental information",
+      "Basic dental photography using mobile phone",
+      "Social media communication"
+    ]
+    
+    soft = [
+      "Good communication with patients",
+      "Patient reassurance",
+      "Time management",
+      "Teamwork",
+      "Ability to work under pressure",
+      "Confidence speaking on camera",
+      "Creating educational content and videos for social media with a large follower base"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Misr university for science and technology"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated from dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Prosthodontic"
+    category_ar = "تركيبات"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0ff23703-fa56-471e-8e6c-92d7538742e3"
+      alt = "Endocrown restoration for a root canal treated molar"
+      description = "Endocrown restoration for a root canal treated molar"
+      alt_ar = "ترميم ضرس معالج عصبياً باستخدام اندو كراون"
+      description_ar = "ترميم ضرس معالج عصبياً باستخدام اندو كراون"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/339cab4f-2e63-4a29-9284-63eb119b8e7d"
+      alt = "Anterior composite restoration for interproximal caries"
+      description = "Anterior composite restoration for interproximal caries"
+      alt_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
+      description_ar = "حشو تجميلي (Composite) للأسنان الأمامية لعلاج تسوس بين الأسنان"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d4c67620-1d22-4944-8228-e3dfd23882c3"
+      alt = "Direct posterior composite restoration for deep occlusal caries"
+      description = "Direct posterior composite restoration for deep occlusal caries"
+      alt_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
+      description_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
+      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      alt_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
+      description_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontics"
+    category_ar = "علاج اللثة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/392163ae-d93c-4d58-b36b-5fb43dcb918c"
+      alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
+      alt_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
+      description_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed Prosthodontics"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f1d85b6c-741f-43af-a1db-470cefff9b1c"
+      alt = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
+      description = "Aesthetic smile makeover using ceramic veneers combined with laser gingivectomy"
+      alt_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
+      description_ar = "تجميل الأسنان الأمامية باستخدام عدسات الفينير (Veneers)مع قص اللثه بالليزر"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/81ce723d-d3a3-4d0c-b914-7b3c17a7a6d5"
+      alt = "Full ceramic crown restoration for the anterior teeth"
+      description = "Full ceramic crown restoration for the anterior teeth"
+      alt_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
+      description_ar = "ترميم الأسنان الأمامية باستخدام ٦ كراون"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic dentistry"
+    category_ar = "تجميل الأسنان"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b7aafeb6-9e49-4675-a967-6ce819f540b7"
+      alt = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten the natural tooth shade"
+      description = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten the natural tooth shade"
+      alt_ar = "تبييض أسنان (Office Bleaching) لتحسين لون الأسنان وإزالة التصبغات العميقة"
+      description_ar = "تبييض أسنان (Office Bleaching) لتحسين لون الأسنان وإزالة التصبغات العميقة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7a94e4b6-db14-4439-a178-d12b62ed99d2"
+      alt = "Root canal treatment (Endodontics) for the upper second molar (Upper 7)"
+      description = "Root canal treatment (Endodontics) for the upper second molar (Upper 7)"
+      alt_ar = "علاج جذور (حشو عصب) للضرس السابع العلوي"
+      description_ar = "علاج جذور (حشو عصب) للضرس السابع العلوي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Surgery"
+    category_ar = "جراحة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e2c82c43-b48f-492a-aec5-e8ddda770af6"
+      alt = "Gingivectomy procedure"
+      description = "Gingivectomy procedure"
+      alt_ar = "قص لصه بالليزر"
+      description_ar = "قص لصه بالليزر"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01155061774"
+    whatsapp = "01155061774"
+    email = "anase6633@gmail.com"
+    instagram = "https://www.instagram.com/drr_islam_anas?igsh=MWE0NTg5aDc2dmRibw%3D%3D&utm_source=qr"
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "الحى السابع  مدينه ٦ أكتوبر محافظة الجيزه"
+      latitude = "29.989788942496407"
+      longitude = "30.946784075066898"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. إسلام أنس عبدالوهاب السيد إبراهيم"
+    tagline = "أخصائى تجميل"
+    graduation = "تخرج 2024 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور إسلام أنس عبدالوهاب"
+    
+    [params.ar.hero.current_position]
+      role = "أخصائى تجميل"
+      clinic = "عياده lava smile"
+  
+[params.ar.skills]
+    clinical = [
+      "الكشف وتشخيص حالات الأسنان",
+      "الحشو التجميلي",
+      "علاج تسوس الأسنان",
+      "حشو العصب",
+      "تحضير وتركيب التيجان (الطربوش)",
+      "تحضير الفينير للحالات التجميلية",
+      "تبييض الأسنان",
+      "خلع الأسنان",
+      "تنظيف وتلميع الأسنان (إزالة الجير)",
+      "تثقيف المرضى عن صحة الفم والأسنان"
+    ]
+    
+    digital = [
+      "استخدام الكمبيوتر والإنترنت في البحث الطبي",
+      "استخدام وسائل التواصل الاجتماعي للتواصل مع المرضى",
+      "التصوير بالموبايل للحالات البسيطة داخل العيادة"
+    ]
+    
+    soft = [
+      "التواصل الجيد مع المرضى",
+      "القدرة على طمأنة المرضى القلقين",
+      "إدارة الوقت داخل العيادة",
+      "العمل ضمن فريق",
+      "تحمل ضغط العمل",
+      "القدرة على الظهور والتحدث أمام الكاميرا",
+      "وصناعة محتوى وفيديوهات توعوية على وسائل التواصل الاجتماعي مع وجود قاعدة متابعين كبيرة"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعه مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2019: الدخول إلى الكلية"
+    
+    [[params.ar.education.timeline]]
+      event = "2024: التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "الحى السابع  مدينه ٦ أكتوبر محافظة الجيزه"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
