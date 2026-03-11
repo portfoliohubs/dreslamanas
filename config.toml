@@ -1,4 +1,4 @@
-baseURL = "https://portfoliohubs.github.io/dreslamanas/"
+baseURL = "https://portfoliohubs.github.io/Eslam-Anas/"
 languageCode = "en-us"
 title = "Dr. Eslam Anas Abdelwahab"
 defaultContentLanguage = "en"
@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Eslam Anas Abdelwahab"
     tagline = "Cosmetic Dentist"
     graduation = "Graduated 2024 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/98c1eadd-3be3-43cd-9ea4-344547a84a5a"
+    profile_image = "https://github.com/user-attachments/assets/7e5e9e46-5a49-4c65-af7e-e7bb21601bdc"
     profile_image_alt = "Profile photo of Dr. Eslam Anas Abdelwahab"
     
     [params.hero.current_position]
@@ -197,23 +197,18 @@ defaultContentLanguage = "en"
       description_ar = "علاج تسوس إطباقي (عميق) في ضرس خلفي باستخدام حشو تجميلي (Composite)"
 
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
-      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
-      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
-      alt_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
-      description_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Periodontics"
-    category_ar = "علاج اللثة"
-    
-    [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/392163ae-d93c-4d58-b36b-5fb43dcb918c"
       alt = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
       description = "Full mouth disinfection involving thorough scaling and root planing to remove heavy calculus and extrinsic stains"
       alt_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
       description_ar = "إزالة الجير والتصبغات الخارجية الشديدة (Scaling and Polishing) لالأسنان السفلية الأمامية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/18e8364e-6fe0-4029-af9d-3d3c3a1d53ab"
+      alt = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      description = "Aesthetic reconstruction of a fractured maxillary central incisor using direct composite"
+      alt_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
+      description_ar = "ترميم كسر في السن الأمامي (Fractured Incisor) باستخدام الحشو التجميلي"
 
   [[params.clinical_cases]]
     enabled = true
@@ -241,8 +236,8 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/b7aafeb6-9e49-4675-a967-6ce819f540b7"
-      alt = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten the natural tooth shade"
-      description = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten the natural tooth shade"
+      alt = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten natural tooth shade"
+      description = "Professional in-office teeth whitening (Bleaching) to eliminate deep stains and brighten natural tooth shade"
       alt_ar = "تبييض أسنان (Office Bleaching) لتحسين لون الأسنان وإزالة التصبغات العميقة"
       description_ar = "تبييض أسنان (Office Bleaching) لتحسين لون الأسنان وإزالة التصبغات العميقة"
 
@@ -260,8 +255,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Surgery"
-    category_ar = "جراحة"
+    category = "Prosthodontics"
+    category_ar = "تركيبات"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e2c82c43-b48f-492a-aec5-e8ddda770af6"
