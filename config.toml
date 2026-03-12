@@ -263,7 +263,7 @@ defaultContentLanguage = "en"
   # Contact Section
   [params.contact]
     phone = "01155061774"
-    whatsapp = "01155061774"
+    whatsapp = "+201155061774"
     email = "anase6633@gmail.com"
     instagram = "https://www.instagram.com/drr_islam_anas?igsh=MWE0NTg5aDc2dmRibw%3D%3D&utm_source=qr"
     facebook = ""
